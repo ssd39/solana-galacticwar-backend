@@ -1,0 +1,1 @@
+solana airdrop 1 8SGLNBs5GBEewcnBf1npKAPkLgPdxAaHxBVKRDxDQZu --url https://api.devnet.solana.com
