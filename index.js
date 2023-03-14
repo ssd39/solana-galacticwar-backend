@@ -141,7 +141,7 @@ app.get('/myassets/:publicKey', async (req,res) => {
     const db = await loadDB()
     let user = await db.collection("users").findOne({ publicKey })
     if(!user){
-      user = { publicKey, tokenAccount, builDingData: { address: "", buil: [] } }
+      user = { publicKey, builDingData: { address: "", buil: [] } }
     }
     let buil = user.builDingData.buil
     assets = filterPlacedAssets(buil, assets)
@@ -157,7 +157,7 @@ app.get('/buildings/:publicKey', async (req,res) => {
     const db = await loadDB()
     let user = await db.collection("users").findOne({ publicKey })
     if(!user){
-      user = { publicKey, tokenAccount, builDingData: { address: "", buil: [] } }
+      user = { publicKey, builDingData: { address: "", buil: [] } }
     }
     let buil = user.builDingData.buil
     let count = filterPlacedAssets(buil, assets)
