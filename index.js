@@ -213,7 +213,7 @@ app.post("/save/:publicKey", async (req, res) => {
     const db = await loadDB()
     const user = await db.collection("users").findOne({ publicKey })
     if(user){
-      db.posts.updateOne( { publicKey }, { $set: { builDingData: { address: "", buil } } } ) 
+      db.collection("users").updateOne( { publicKey }, { $set: { builDingData: { address: "", buil } } } ) 
     }
     return res.send({ sucess: true})
   }
