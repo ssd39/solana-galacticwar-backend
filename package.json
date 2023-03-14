@@ -8,6 +8,9 @@
     "init-mint": "node createMintAccount.js",
     "faucet": "node faucetAureus.js"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

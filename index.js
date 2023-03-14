@@ -23,36 +23,36 @@ const port = process.env.PORT || 4000
 
 const mapping = {
   xbow: { 
-    collection_mint: "7zfByZW5A7hnxsbwZfjECXfDkF5WAsSLiWdDSQ83Xgxj",
-    candymachine: "8ynfucir4qhejWtuCMXBH2nks7zoGnEXdgpLivdaudc8"
+    collection_mint: "HfhuF6DZY5ez64j51N5VwStDFs6sEk4wmZG6msz9Mb4L",
+    candymachine: "8W4F3BoW1BK27YjMASVDFZQDSRVLTxtmPxvFWNNCqD9b"
   },
   townhall: {
-    collection_mint: "Do9ZzPDLHucvx7hZXVoi3qJbsp5MF7LNC3fKZDwDQaQ6",
-    candymachine: "EGGinh4T2XhwzAZXCEWC8WsyxYS3ga3jfiU2TYi2k1Mg"
+    collection_mint: "4VzKDq7svAok7f71Mzh5xpJcXtkd3Auyo9ZD2GgVxyv5",
+    candymachine: "AzGzVcoo9uwzUUN8H1uVaBB4DCig6Po8SXcFGRN4PiS5"
   },
   miner: {
-    collection_mint: "5fHxyaEH4W1zXLhWo6tmqMDDDPnqrYuvJYVKfVCh4mbr",
-    candymachine: "FbRr4tVksRuW3wz98DpK1KpZhund94XfBKDy53PZ5f5q"
+    collection_mint: "ESMrdSBZy8dEwsaodvre64NmsGJgrhyPxaVa2wEuTD9X",
+    candymachine: "7HnUFoU3j6Dvs6x643SkEE2ZMUvJK1rhnuiLjZe7jSMP"
   },
   tesla: {
-    collection_mint: "4LLGyj2eNsiAsHk7DPG8ghGcMHqWKEGo1cJAe1tRSAJB",
-    candymachine: "2Vpj8sWy1VniJZF1ArfZtFdu6Zt2eQmX659CZtHVy6ry"
+    collection_mint: "AeHxXAnQRXjQz1r7sjX9fiujhofDbrrteM88qy3zaZeN",
+    candymachine: "DyRkBKQTSvUSqEnmLPdTM8gZ67kUFSjEjkrzKpon7S9Z"
   },
   cannon: {
-    collection_mint: "GmHEKgwAYxdWut4R8fBWyGtLJjvM6kMCVbNUjXecda1X",
-    candymachine: "5chhmq4uPQpeZxNXXJQdZgB8qYxUDzYhdQ9vS4KKLV4t"
+    collection_mint: "C3JqXHNm27HTaECZEwws6ATaxLhRNaLacDkQ3WWSJGV7",
+    candymachine: "6i8ubJ5fSs4BV4vcYe7H7U6NUu74Gj42yZzxfi4rPvSQ"
   },
   archer: {
-    collection_mint: "F9MLujr9fMJswwSHapjaGEaXCCXLz8m66PxAuZvSs2yW",
-    candymachine: "CpKkGgY6wrtQ95Vou8xVqFS99EuzC5LTR1ur4MSyxa2z"
+    collection_mint: "AY4w5vRt8aPtRpgoAVmhfVTkSwqjebV1mmmGBkA3iBg5",
+    candymachine: "FxK3GMbxU74WXKFB82ndx99Mcs4t1pMUYtc8xzmXRtyC"
   },
   robot: {
-    collection_mint: "7jHk8tvTfTEeuFv8phpJKPE4k5AuoKfYGUJfoYz9kxNi",
-    candymachine: "53xmJKzX5s1nai6iXLDoMbEicauXiBbBn1Anm9Mj8afC"
+    collection_mint: "CFLknMKXSwip8DLWVNsiVE19HshQhgjMg2BKTFc3LGdW",
+    candymachine: "12QVJusmwTxe4XwjUPSrJAdRp13g7h9uY4uyuX2mBoeo"
   },
   valkyriee: {
-    collection_mint: "kyAc4QnCi4rUQ2Ep9G61FLkVLf1CXxrnpq47LuPc9A8",
-    candymachine: "ApygrrkriSV5gzFYSMXwQ4FRJKQJsRPFWzuVTo2NtBUb"
+    collection_mint: "7z3siG2qim1H5C46EMFjLgL7bk2quVeYNprdQCjjiRGr",
+    candymachine: "AuPCGX5iE91aVpwZpCvAiQcH6KEJVs9rHZqotrzaxiQa"
   }
 }
 
