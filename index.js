@@ -19,7 +19,7 @@ const metaplex = new Metaplex(connection);
 const app = express()
 app.use(cors())
 app.use(bodyParser.json())
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 5001
 
 const mapping = {
   xbow: { 
@@ -225,5 +225,8 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, async () => {
+  setInterval(()=>{
+    fetch('https://galacticwar-sol.onrender.com')
+  },30000)
   console.log(`App listening on port ${port}`)
 })
